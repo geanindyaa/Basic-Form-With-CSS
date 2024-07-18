@@ -1,0 +1,30 @@
+h1 {
+    color: rgb(234, 89, 113); 
+    font-family: verdana, arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-variant: small-caps;
+}
+body {
+    background-color: rgb(181, 210, 244);
+}
+.form {
+    display: flex;
+    background-color: rgb(181, 210, 244);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+label {
+    color: rgb(234, 89, 113); 
+    font-family: arial, verdana, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-variant: small-caps;
+}
+input, textarea {
+    background-color: rgb(135, 189, 160);
+}
+select {
+    color: rgb(216, 49, 77);
+}

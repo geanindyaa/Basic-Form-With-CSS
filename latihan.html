@@ -2,9 +2,12 @@
 <html>
 <head>
 	<title>HTML - Latihan Form</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<table cellpadding="5">
+
+	<h1>Basic Form by Gea Anindiya</h1>
+	<table cellpadding="5" class="form">
 		<form>
 			<tr>
 				<td><label for="username">Username :</label></td>
@@ -15,11 +18,13 @@
 				<td><input type="password" id="password"></td>
 			</tr>
 			<tr>
-				<td colspan="2"><input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+				<td><label>Jenis Kelamin :</label></td>
+				<td><input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
 				  			    <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label></td>
 			</tr>
 			<tr>
-				<td colspan="2"><input type="checkbox" id="memasak"><label for="memasak">Memasak</label>
+				<td><label>Hobi:</label></td>
+				<td><input type="checkbox" id="memasak"><label for="memasak">Memasak</label>
 				                <input type="checkbox" id="maingame"><label for="maingame">Main Game</label>
 								<input type="checkbox" id="ngoding"><label for="ngoding">Ngoding</label></td>
 			</tr>
@@ -28,7 +33,8 @@
 				<td><textarea></textarea></td>
 			</tr>
 			<tr>
-				<td colspan="2"><select>
+				<td><label>Domisili:</label></td>
+				<td><select>
 					<option>Bekasi</option>
 					<option>Bandung</option>
 					<option>Jakarta</option>
